@@ -2,6 +2,8 @@ import { Popover } from "@headlessui/react";
 import { useTheme } from "next-themes";
 import { useRouter } from "next/router";
 import React, { useEffect, useState } from "react";
+
+
 import Button from "../Button";
 // Local Data
 import data from "../../data/portfolio.json";
@@ -77,7 +79,7 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
                   {showResume && (
                     <Button
                       onClick={() =>
-                        window.open("mailto:hello@chetanverma.com")
+                        window.open("mailto:talkruger9@gmail.com")
                       }
                     >
                       Resume
@@ -85,7 +87,7 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
                   )}
 
                   <Button
-                    onClick={() => window.open("mailto:hello@chetanverma.com")}
+                    onClick={() => window.open("mailto:talkruger9@gmail.com")}
                   >
                     Contact
                   </Button>
@@ -108,7 +110,7 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
                   )}
 
                   <Button
-                    onClick={() => window.open("mailto:hello@chetanverma.com")}
+                    onClick={() => window.open("mailto:talkruger9@gmail.com")}
                   >
                     Contact
                   </Button>
@@ -145,7 +147,7 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
               </Button>
             )}
 
-            <Button onClick={() => window.open("mailto:hello@chetanverma.com")}>
+            <Button onClick={() => window.open("mailto:talkruger9@gmail.com")}>
               Contact
             </Button>
             {mounted && theme && data.darkMode && (
@@ -154,7 +156,7 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
               >
                 <img
                   className="h-6"
-                  src={`/images/${theme === "dark" ? "moon.svg" : "sun.svg"}`}
+                  src={`/images/${theme === "dark" ? "sun.svg" : "moon.svg"}`}
                 ></img>
               </Button>
             )}
@@ -174,7 +176,7 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
               </Button>
             )}
 
-            <Button onClick={() => window.open("mailto:hello@chetanverma.com")}>
+            <Button onClick={() => window.open("mailto:talkruger9@gmail.com")}>
               Contact
             </Button>
 

@@ -9,6 +9,8 @@ import { useTheme } from "next-themes";
 // Data
 import { name, showResume } from "../data/portfolio.json";
 import { resume } from "../data/portfolio.json";
+import ExperienceResume from "../components/ExperienceResume";
+import LinkedIn from "../components/LinkedIn";
 
 const Resume = () => {
   const router = useRouter();
@@ -20,7 +22,7 @@ const Resume = () => {
     if (!showResume) {
       router.push("/");
     }
-  }, []);
+  }, [router]);
   return (
     <>
       {process.env.NODE_ENV === "development" && (
@@ -53,35 +55,48 @@ const Resume = () => {
                 <h1 className="text-2xl font-bold">Experience</h1>
 
                 {resume.experiences.map(
-                  ({ id, dates, type, position, bullets }) => (
+                  ({ id, dates, type, position, about, bullets }) => (
                     <ProjectResume
                       key={id}
                       dates={dates}
                       type={type}
                       position={position}
+                      about={about}
                       bullets={bullets}
                     ></ProjectResume>
                   )
                 )}
               </div>
+
+              <div className="mt-5">
+                <h3 className="text-lg">
+                  To see more of my work experience, please see my
+                  <LinkedIn />
+                </h3>
+              </div>
+
               <div className="mt-5">
                 <h1 className="text-2xl font-bold">Education</h1>
-                <div className="mt-2">
-                  <h2 className="text-lg">{resume.education.universityName}</h2>
-                  <h3 className="text-sm opacity-75">
-                    {resume.education.universityDate}
-                  </h3>
-                  <p className="text-sm mt-2 opacity-50">
-                    {resume.education.universityPara}
-                  </p>
-                </div>
+                {resume.education.map(
+                  ({ id, dates, certification, universityName, bullets }) => (
+                    <ExperienceResume
+                      key={id}
+                      dates={dates}
+                      certification={certification}
+                      universityName={universityName}
+                      bullets={bullets}
+                    ></ExperienceResume>
+                  )
+                )}
               </div>
+
               <div className="mt-5">
                 <h1 className="text-2xl font-bold">Skills</h1>
                 <div className="flex mob:flex-col desktop:flex-row justify-between">
                   {resume.languages && (
                     <div className="mt-2 mob:mt-5">
                       <h2 className="text-lg">Languages</h2>
+
                       <ul className="list-disc">
                         {resume.languages.map((language, index) => (
                           <li key={index} className="ml-5 py-2">
@@ -92,11 +107,11 @@ const Resume = () => {
                     </div>
                   )}
 
-                  {resume.frameworks && (
+                  {resume.front_end_frameworks && (
                     <div className="mt-2 mob:mt-5">
-                      <h2 className="text-lg">Frameworks</h2>
+                      <h2 className="text-lg">Front End Frameworks</h2>
                       <ul className="list-disc">
-                        {resume.frameworks.map((framework, index) => (
+                        {resume.front_end_frameworks.map((framework, index) => (
                           <li key={index} className="ml-5 py-2">
                             {framework}
                           </li>
@@ -105,13 +120,95 @@ const Resume = () => {
                     </div>
                   )}
 
-                  {resume.others && (
+                  {resume.back_end_frameworks && (
                     <div className="mt-2 mob:mt-5">
-                      <h2 className="text-lg">Others</h2>
+                      <h2 className="text-lg">Back End Frameworks</h2>
                       <ul className="list-disc">
-                        {resume.others.map((other, index) => (
+                        {resume.back_end_frameworks.map((framework, index) => (
                           <li key={index} className="ml-5 py-2">
-                            {other}
+                            {framework}
+                          </li>
+                        ))}
+                      </ul>
+                    </div>
+                  )}
+
+                  {resume.database_exposure && (
+                    <div className="mt-2 mob:mt-5">
+                      <h2 className="text-lg">Database Exposure</h2>
+                      <ul className="list-disc">
+                        {resume.database_exposure.map((framework, index) => (
+                          <li key={index} className="ml-5 py-2">
+                            {framework}
+                          </li>
+                        ))}
+                      </ul>
+                    </div>
+                  )}
+                </div>
+              </div>
+
+              <div className="mt-5">
+                <div className="flex mob:flex-col desktop:flex-row justify-between">
+                  {resume.spoken_languages && (
+                    <div className="mt-2 mob:mt-5">
+                      <h2 className="text-lg">Spoken Languages</h2>
+                      <ul className="list-disc">
+                        {resume.spoken_languages.map((language, index) => (
+                          <li key={index} className="ml-5 py-2">
+                            {language}
+                          </li>
+                        ))}
+                      </ul>
+                    </div>
+                  )}
+
+                  {resume.styling_exposure && (
+                    <div className="mt-2 mob:mt-5">
+                      <h2 className="text-lg">Styling</h2>
+                      <ul className="list-disc">
+                        {resume.styling_exposure.map((style, index) => (
+                          <li key={index} className="ml-5 py-2">
+                            {style}
+                          </li>
+                        ))}
+                      </ul>
+                    </div>
+                  )}
+
+                  {resume.work_tool_exposure && (
+                    <div className="mt-2 mob:mt-5">
+                      <h2 className="text-lg">Tools</h2>
+                      <ul className="list-disc">
+                        {resume.work_tool_exposure.map((tool, index) => (
+                          <li key={index} className="ml-5 py-2">
+                            {tool}
+                          </li>
+                        ))}
+                      </ul>
+                    </div>
+                  )}
+
+                  {resume.file_format_exposure && (
+                    <div className="mt-2 mob:mt-5">
+                      <h2 className="text-lg">File Formats</h2>
+                      <ul className="list-disc">
+                        {resume.file_format_exposure.map((format, index) => (
+                          <li key={index} className="ml-5 py-2">
+                            {format}
+                          </li>
+                        ))}
+                      </ul>
+                    </div>
+                  )}
+
+                  {resume.ci_cd_exposure && (
+                    <div className="mt-2 mob:mt-5">
+                      <h2 className="text-lg">CI/CD</h2>
+                      <ul className="list-disc">
+                        {resume.ci_cd_exposure.map((tool, index) => (
+                          <li key={index} className="ml-5 py-2">
+                            {tool}
                           </li>
                         ))}
                       </ul>

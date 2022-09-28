@@ -1,1 +1,197 @@
-{"name":"Chetan","headerTaglineOne":"Hello 👋","headerTaglineTwo":"I'm Chetan Verma - curious","headerTaglineThree":"designer and devloper","headerTaglineFour":" based in New Delhi, India.","showBlog":true,"darkMode":true,"showResume":true,"socials":[{"id":"1","title":"Github","link":"https://github.com/chetanverma16"},{"id":"2","title":"LinkedIn","link":"https://www.linkedin.com/in/chetanverma7/"},{"id":"3","title":"Twitter","link":"https://twitter.com/realchetanverma"},{"id":"4","title":"Blog","link":"https://blog.chetanverma.com/"},{"id":"5","title":"Email","link":"mailto:hello@chetanverma.com"}],"projects":[{"id":"1","title":"Project One Test","description":"Web Design","imageSrc":"https://images.unsplash.com/photo-1487837647815-bbc1f30cd0d2?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8Njl8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60","url":"http://chetanverma.com/"},{"id":"2","title":"Project Two","description":"Web Development","imageSrc":"https://images.unsplash.com/photo-1605153864431-a2795a1b2f95?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MXwyNTY3ODl8fGVufDB8fHw%3D&auto=format&fit=crop&w=400&q=60","url":"http://chetanverma.com/"},{"id":"3","title":"Project Three","description":"Design","imageSrc":"https://images.unsplash.com/photo-1504083898675-c896ecdae86e?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8MjJ8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60","url":"http://chetanverma.com/"},{"id":"4","title":"Project Four","description":"Marketing","imageSrc":"https://images.unsplash.com/photo-1492171983775-a51717616c0d?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8NjB8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60","url":"http://chetanverma.com/"},{"id":"5","title":"Project Five","description":"Development","imageSrc":"https://images.unsplash.com/photo-1534239143101-1b1c627395c5?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8NzZ8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60","url":"http://chetanverma.com/"},{"id":"6","title":"Project Six","description":"Design & Development","imageSrc":"https://images.unsplash.com/photo-1517479149777-5f3b1511d5ad?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTAyfHxwYXN0ZWx8ZW58MHx8MHw%3D&auto=format&fit=crop&w=400&q=60","url":"http://chetanverma.com/"}],"services":[{"id":"1","title":"Art Direction","description":"We help with the creation and development of online advertising ideas, with particular focus on their visual appearance."},{"id":"2","title":"Branding","description":"We design key brand elements such as the logo, color scheme, typography, and other design components that makes your brand stand out from competitors."},{"id":"3","title":"Web Design","description":"We build and optimize your online presence.  Website is the digital entry point into your business and a powerful revenue channel."},{"id":"4","title":"3D Design","description":"We combine creative design and technical skills to build striking 3D visualisations that bring your project to life."}],"aboutpara":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.","resume":{"tagline":"👋  I'm a software engineer, product designer.","description":"I have delivered world-class user experiences to millions of people. Well-versed with React, Javascript, and most of the Web frameworks.","experiences":[{"id":"1","dates":"March 2022 - Present","type":"Full Time","position":"Frontend Engineer at X","bullets":"Bullet One, Bullet Two"},{"id":"d495c23b-4f65-479a-9b8a-cfbc1c089725","dates":"July 2020 - March 2022","type":"Full Time","position":"Frontend Engineer at X","bullets":"Worked on the frontend of a React application, Worked on the frontend of a React application"}],"education":{"universityName":"University X","universityDate":"2016-2020","universityPara":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&apos;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book"},"languages":["Javascript","HTML5","CSS","Python","Go"],"frameworks":["React","Typescript","NodeJs"],"others":["Figma","AdobeXD","AWS"]}}
+{
+  "name": "Talitha",
+  "headerTaglineOne": "",
+  "headerTaglineTwo": "I'm Talitha Kruger -",
+  "headerTaglineThree": "full-stack developer and music enthusiast",
+  "headerTaglineFour": " from Johannesburg, South Africa.",
+  "showBlog": false,
+  "darkMode": true,
+  "socials": [
+    {
+      "id": "1",
+      "title": "Github",
+      "link": "https://github.com/T4lith4/",
+      "icon": "BsGithub"
+    },
+    {
+      "id": "2",
+      "title": "LinkedIn",
+      "link": "https://www.linkedin.com/in/talitha-kruger-3a7b07175/",
+      "icon": ""
+    },
+    {
+      "id": "5",
+      "title": "Email",
+      "link": "mailto:talkruger9@gmail.com",
+      "icon": ""
+    }
+  ],
+  "projects": [
+    {
+      "id": "1",
+      "title": "Pet Match Game",
+      "description": "This is a game that I built with React during my coding bootcamp",
+      "imageSrc": "https://i.im.ge/2022/09/26/1NQjfK.ok.png",
+      "url": "https://serene-elion-41aab6.netlify.app/"
+    },
+    {
+      "id": "2",
+      "title": "Dream Catcher",
+      "description": "This is a Full Stack Stateful Web Application, also built during my coding bootcamp",
+      "imageSrc": "https://i.im.ge/2022/09/26/1NT1T8.Screenshot-2022-09-26-at-14-15-52.png",
+      "url": "https://peaceful-bastion-44849.herokuapp.com/"
+    },
+    {
+      "id": "3",
+      "title": "Cans Addict",
+      "description": "This is a Web Application built with Javascript, HTML and CSS, also during my coding bootcamp.",
+      "imageSrc": "https://i.im.ge/2022/09/26/1NXOxM.Screenshot-2022-09-26-at-14-33-23.png",
+      "url": "https://cans-addict.herokuapp.com/"
+    },
+    {
+      "id": "4",
+      "title": "Franc",
+      "description": "This is a Web Application which I built with VueJS while workig at Franc in my first developer job",
+      "imageSrc": "https://i.im.ge/2022/09/27/1tzs6a.Screenshot-2022-09-27-at-13-42-21.png",
+      "url": "https://www.franc.app/"
+    }
+  ],
+  "services": [
+    {
+      "id": "1",
+      "title": "Clean, Secure Code",
+      "description": "I am sure you hear this from many developers, although I have the pudding to prove it; in my most recent start-up, I reduced code duplication up to 90% by abstracting and librarifying code in chained micro-services, then published it as an internal NPM Package"
+    },
+    {
+      "id": "2",
+      "title": "UX",
+      "description": "I believe that as a developer, I have the ability to enrich an end user's life, and ultimately, enable them to think and feel through enhanced and inspiring user experiences. I am assiduos about everything user-facing and I am pro-inclusion. I have no problem getting on a call with a user and finding out how I can improve their experience, as I have done in the first start-up I worked at"
+    },
+    {
+      "id": "3",
+      "title": "Cultural Appreciation",
+      "description": "I was raised in a country renowned for it's cultural diversity,I have learned to be aware of celebrate diversity but to appreciate and celebrate it, especially after working with an international team that ranged from Nigerian to Russian"
+    },
+    {
+      "id": "4",
+      "title": "High EQ enabled Communication",
+      "description": "I worked in customer service where there is little to no space for a low emotional quotient and verbal and written communication is pivotal. In addition to this, I have had exposure to writing Technical Documentation in both conpanies I have worked at as a developer"
+    }
+  ],
+  "aboutpara": "I am a 29-year-old lady who is easily excited and inspired by music, travel and the people around me. I have a steadfast love for scented candles, drumming, gardening and my two dogs. I have a witty sense of humor and I am not afraid to use it, especially to make others laugh. I also pride myself as an intuitive individual who has a knack for reading rooms, even if they are on Google hangouts!",
+  "resume": {
+    "tagline": "👋  I'm a software engineer with an appetite to learn and apply my learnings",
+    "description": "I am a friendly 29 year-old lady who flipped her career path on it's head after discovering the boundless wonders of code! I want to put my can-do attitude behind innovation that offers altruistic fulfilment and a steep growth-trajectory.",
+    "experiences": [
+      {
+        "id": "1",
+        "dates": "Jan 2022 - Present",
+        "type": "Junior Software Engineer",
+        "position": "Remote Contractor at Lextego Ltd",
+        "about": "My role is mainly for back-end engineering of chained microservices which enable Secure Transaction Monitoring, at scale, in real-time. All code is integration and e2e tested, and all work is documented on Github Wiki's and demonstrated on Loom (video).",
+        "bullets": [
+          "Peer reviewing code and implementation of feedback, removing code smells reported by SonarQube",
+          "Implementation of RESTful API's and their respective logic.",
+          "Publishing abstracted and librarified code to an internal npm package",
+          "Onboarding new developers and offering support and mentorship to my team",
+          "Participating and giving input on feature design meetings",
+          "Writing automative bash scripts",
+          "Current Stack: KoaJS | NestJS | TypeScript | ArangoDB"
+        ]
+      },
+      {
+        "id": "2",
+        "dates": "May 2020 - Dec 2021",
+        "type": "Junior Full Stack Software Engineer",
+        "position": "Remote Contractor at Franc Group Ltd",
+        "about": "I developed and maintained Franc's website and mobile application that was supported on Android, iOS and Hauweii app stores, back to front",
+        "bullets": [
+          "Bug-Master duties and Test Driven Development.",
+          "Automating payments for integration with Peach Payments",
+          "Working in an agile-inspired development team to launch new features, migrate frameworks (Ionic to Flutter in our mobile app) and unpack requirements with stakeholders.",
+          "Customer calls to gather feedback on their user experience and the documentation and implementation thereof.",
+          "Implementing and testing Firebase Analytics while liaising with the marketing team as per their requirements.",
+          "Defining quarterly OKR's as a team.",
+          "Documenting work on Confluence, as well as recording newsletter videos on new features released on app stores when needed",
+          "Stack: VueJS | Python | Dart | MySQL | Python | HTML | CSS | SCSS | Ionic | React | VueJS | NextJS | Flutter"
+        ]
+      },
+      {
+        "id": "3",
+        "dates": "Feb 2017 - May 2020",
+        "type": "Au Pair/Tutor",
+        "position": "Private Family",
+        "about": "Ensuring safe transportation of children home from school and to extra-curricular activities and assisting children with homework using AGILE methodology",
+        "bullets": [
+          "I used this job opportunity to work half-day while I focused my efforts on learning to code.",
+          "Insert link to linked in - Please see my LinkedIn for more of my work experiences"
+        ]
+      }
+    ],
+    "education": [
+      {
+        "id":"1",
+        "dates": "Apr 2019 - Oct 2019",
+        "certification":"Full Stack (MERN) Web Developer Bootcamp",
+        "universityName": "HyperionDev",
+        "bullets": [
+            "I designed and developed ata-driven web applications with HTML,CSS, Javascript, React, Node.js, and Express JS",
+            "Applied Agile development and product design principles to web development projects",
+            "Studied crucial software algorithms, and their application to web development",
+            "Created databases and data-driven web applications",
+            "Building responsive Web Interfaces (CSS Grid, Flexbox)"
+        ]
+      },
+      {
+        "id":"2",
+        "dates": "Nov 2019 - Oct 2019",
+        "certification":"The Complete Web Developer: Zero To Mastery",
+        "universityName": "Udemy Academy",
+        "bullets": [
+            "Studies and applied best practices to write clean, performant, and bug free code in HTML, CSS, Javascript, React, NodeJS, ExpressJS and MongoDB",
+            "Building hands-on Dynamic Web Applications",
+            "Ensuring all web applications has responsive Interfaces (CSS Grid, Flexbox)"
+        ]
+      },
+      {
+        "id":"3",
+        "dates": "Nov 2017 - Jul 2018",
+        "certification":"Front End Web Development",
+        "universityName": "FreeCodeCamp",
+        "bullets": [
+            "Studied responsive and dynamic Web Design with HTML5 and CSS3 and Javascript."
+        ]
+      }
+    ],
+
+    "languages": ["Typescript","Javascript","Dart", "Python"],
+    "front_end_frameworks": ["React", "NextJS", "VueJS", "Flutter", "Ionic", "Angular","jQuery"],
+    "back_end_frameworks": ["ExpressJS", "NestJS", "KoaJS"],
+    "database_exposure": ["ArangoDB", "MySQL", "MongoDB"],
+    "styling_exposure": ["SCSS", "TailwindCSS", "CSS3", "Bootstrap", "Material UI"],
+    "spoken_languages": ["English", "Afrikaans"],
+    "file_format_exposure": ["JSON", "XML"],
+    "ci_cd_exposure": ["Docker", "Jenkins", "AWS"],
+    "work_tool_exposure": [
+      "Google Hangouts",
+      "Microsoft Teams",
+      "Slack",
+      "Discord",
+      "Trello",
+      "Zoom",
+      "Jira",
+      "Miro",
+      "Whimsical",
+      "Confluence",
+      "Github Wiki's",
+      "Loom",
+      "Postman",
+      "Firebase",
+      "SonarQube",
+      "Hashicorp Vault",
+      "OpenTelemtry",
+      "Elastic Search Kibana"
+    ]
+  },
+  "showResume": true
+}
