@@ -3,7 +3,7 @@ import { useTheme } from "next-themes";
 
 const Button = ({ children, type, onClick, classes }) => {
   const { theme } = useTheme();
-  if (type === "primary") {
+  if (type !== "primary") {
     return (
       <button
         onClick={onClick}

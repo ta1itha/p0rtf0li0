@@ -1,8 +1,6 @@
 import React from "react";
 import Socials from "../Socials";
 import Link from "next/link";
-import Button from "../Button";
-
 
 const Footer = ({}) => {
   return (
@@ -17,7 +15,7 @@ const Footer = ({}) => {
             <h1 className="text-3xl tablet:text-6xl laptop:text-6xl laptopl:text-8xl text-bold">
               TOGETHER
             </h1>
-            <h2 className="text-3xl" type="primary">Please feel free to reach me at +2781 271 3734</h2>
+            <h2 className="text-3xl" type="primary">Please feel free to reach me at +27 81 271 3734</h2>
             <div className="mt-10">
               <Socials />
             </div>
