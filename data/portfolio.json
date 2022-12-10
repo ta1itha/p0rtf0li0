@@ -78,7 +78,7 @@
       "description": "I worked in customer service where there is little to no space for a low emotional quotient and verbal and written communication is pivotal. In addition to this, I have had exposure to writing Technical Documentation in both conpanies I have worked at as a developer"
     }
   ],
-  "aboutpara": "I am a 29-year-old lady who is easily excited and inspired by music, travel and the people around me. I have a steadfast love for scented candles, drumming, gardening and my two dogs. I have a witty sense of humor and I am not afraid to use it, especially to make others laugh. I also pride myself as an intuitive individual who has a knack for reading rooms, even if they are on Google hangouts!",
+  "aboutpara": "I am a 29-year-old lady who is excited and inspired by music, travel and the people around me. I have a steadfast love for scented candles, drumming, gardening and my two dogs. I have a witty sense of humor and I am not afraid to use it, especially to make others laugh. I also pride myself as an intuitive individual who has a knack for reading rooms, even if they are on Google hangouts!",
   "resume": {
     "tagline": "👋  I'm a software engineer with an appetite to learn and apply my learnings",
     "description": "I am a friendly 29 year-old lady who flipped her career path on it's head after discovering the boundless wonders of code! I want to put my can-do attitude behind innovation that offers altruistic fulfilment and a steep growth-trajectory.",
@@ -106,7 +106,7 @@
         "bullets": [
           "Peer reviewing code and implementation of feedback, removing code smells reported by SonarQube",
           "Implementation of RESTful API's and their respective logic.",
-          "Publishing abstracted and librarified code to an internal npm package",
+          "Publishing abstracted and packaged code to an internal npm package",
           "Onboarding new developers and offering support and mentorship to my team",
           "Participating and giving input on feature design meetings",
           "Writing automative bash scripts",
