@@ -2,7 +2,7 @@
   "name": "Talitha",
   "headerTaglineOne": "",
   "headerTaglineTwo": "I'm Talitha Kruger -",
-  "headerTaglineThree": "software engineer and front-end tutor",
+  "headerTaglineThree": "Software Engineer and Front-end Tutor",
   "headerTaglineFour": " from Johannesburg, South Africa.",
   "showBlog": false,
   "darkMode": true,
@@ -83,10 +83,24 @@
     "tagline": "👋  I'm a software engineer with an appetite to learn and apply my learnings",
     "description": "I am a friendly 29 year-old lady who flipped her career path on it's head after discovering the boundless wonders of code! I want to put my can-do attitude behind innovation that offers altruistic fulfilment and a steep growth-trajectory.",
     "experiences": [
+        {
+            "id": "1",
+            "dates": "Dec 2022 - Present",
+            "type": "Front End Web Development",
+            "position": "Tutor at Noroff Vocational School",
+            "about": "I provide support online tutoring and mentorship to students.",
+            "bullets": [
+              "Reviewing code assignments and recording a loom video that provides feedback to the student",
+              "Grading the implementation of HTML, CSS, Javascript, React and the respective logic of exams.",
+              "Providing virtual support and online mentorship via discord to all students",
+              "Laising with my fellow teachers on best practices for teaching and supporting students",
+              "Keeping all course content relevant and maintaining the learning platform for students"
+            ]
+          },
       {
-        "id": "1",
-        "dates": "Jan 2022 - Present",
-        "type": "Junior Software Engineer",
+        "id": "2",
+        "dates": "Jan 2022 - Sep 2022",
+        "type": "Software Engineer",
         "position": "Remote Contractor at Lextego Ltd",
         "about": "My role is mainly for back-end engineering of chained microservices which enable Secure Transaction Monitoring, at scale, in real-time. All code is integration and e2e tested, and all work is documented on Github Wiki's and demonstrated on Loom (video).",
         "bullets": [
@@ -100,9 +114,9 @@
         ]
       },
       {
-        "id": "2",
+        "id": "3",
         "dates": "May 2020 - Dec 2021",
-        "type": "Junior Full Stack Software Engineer",
+        "type": "Full Stack Software Engineer",
         "position": "Remote Contractor at Franc Group Ltd",
         "about": "I developed and maintained Franc's website and mobile application that was supported on Android, iOS and Hauweii app stores, back to front",
         "bullets": [
@@ -117,7 +131,7 @@
         ]
       },
       {
-        "id": "3",
+        "id": "4",
         "dates": "Feb 2017 - May 2020",
         "type": "Au Pair/Tutor",
         "position": "Private Family",
